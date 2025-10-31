@@ -188,6 +188,23 @@ export default function Contact() {
                     <p className="text-gray-600">Sunday: Closed</p>
                   </div>
                 </div>
+
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-jd-green rounded-lg flex items-center justify-center text-white text-xl">
+                    📱
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900">Follow Us</h3>
+                    <a 
+                      href="https://www.facebook.com/KennedyYardServices" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-jd-green hover:text-green-700 font-medium transition-colors"
+                    >
+                      Facebook: KennedyYardServices
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 

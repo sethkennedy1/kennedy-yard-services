@@ -17,15 +17,15 @@ export default function Home() {
   const testimonials = [
     {
       text: "Kennedy Yard Services transformed our lawn! Professional, reliable, and affordable.",
-      author: "Sarah M.",
+      author: "Syd K.",
     },
     {
       text: "They've maintained our property for years. Always punctual and thorough.",
-      author: "John D.",
+      author: "Sean K.",
     },
     {
       text: "Best landscaping company in the area. Highly recommend their services!",
-      author: "Lisa K.",
+      author: "Rebecca K.",
     },
   ]
 
@@ -75,6 +75,37 @@ export default function Home() {
             exceptional outdoor maintenance services that keep your landscape healthy, beautiful, and thriving 
             year-round.
           </p>
+        </div>
+      </section>
+
+      {/* Equipment Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Professional Equipment
+            </h2>
+            <p className="text-xl text-gray-600">
+              State-of-the-art machinery for superior results
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src="/equipment1.jpg" 
+                alt="Professional lawn mowing equipment" 
+                className="w-full h-96 object-cover"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src="/equipment2.jpg" 
+                alt="Snow removal equipment" 
+                className="w-full h-96 object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
