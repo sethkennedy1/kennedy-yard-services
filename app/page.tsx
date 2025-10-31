@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 export default function Home() {
   const services = [
-    { name: 'Lawn Care', icon: '🌱', description: 'Full suite of professional lawn care services' },
-    { name: 'Lawn Mowing', icon: '🚜', description: 'Regular mowing and edging services' },
-    { name: 'Landscaping Projects', icon: '🏡', description: 'Custom landscape design and installation' },
-    { name: 'Fertilizer', icon: '🌿', description: 'Professional fertilization programs' },
-    { name: 'Weed Control', icon: '🎯', description: 'Comprehensive weed prevention and removal' },
-    { name: 'Snow Removal', icon: '❄️', description: 'Reliable winter snow clearing services' },
-    { name: 'Salt Spreading', icon: '🧂', description: 'Ice management and salt application' },
-    { name: 'Consulting Services', icon: '💼', description: 'Expert outdoor maintenance advice' },
-    { name: 'Weeding', icon: '🌾', description: 'Garden bed maintenance and weeding' },
+    { name: 'Lawn Care', description: 'Full suite of professional lawn care services' },
+    { name: 'Lawn Mowing', description: 'Regular mowing and edging services' },
+    { name: 'Landscaping Projects', description: 'Custom landscape design and installation' },
+    { name: 'Fertilizer', description: 'Professional fertilization programs' },
+    { name: 'Weed Control', description: 'Comprehensive weed prevention and removal' },
+    { name: 'Snow Removal', description: 'Reliable winter snow clearing services' },
+    { name: 'Salt Spreading', description: 'Ice management and salt application' },
+    { name: 'Consulting Services', description: 'Expert outdoor maintenance advice' },
+    { name: 'Weeding', description: 'Garden bed maintenance and weeding' },
   ]
 
   const testimonials = [
@@ -37,7 +37,7 @@ export default function Home() {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1920&q=80')",
+            backgroundImage: "url('/lawn2.jpg')",
           }}
         ></div>
         
@@ -63,8 +63,12 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Rooted in Excellence
+            Family Owned & Operated
           </h2>
+          <p className="text-xl text-gray-700 leading-relaxed mb-6">
+            We are a family owned business that offers professional quality yard services with affordable pricing. 
+            We appreciate the opportunity to work for you!
+          </p>
           <p className="text-xl text-gray-700 leading-relaxed">
             Kennedy Yard Services brings years of dedication and expertise to every property we care for. 
             Built on a foundation of reliability and community trust, we're committed to delivering 
@@ -92,7 +96,6 @@ export default function Home() {
                 key={index}
                 className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-all hover:-translate-y-1 border-t-4 border-jd-green"
               >
-                <div className="text-5xl mb-4">{service.icon}</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">
                   {service.name}
                 </h3>

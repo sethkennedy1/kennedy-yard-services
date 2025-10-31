@@ -36,8 +36,8 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: info@kennedyyardservices.com</li>
-              <li>Phone: (555) 123-4567</li>
+              <li>Email: djandthecrew@gmail.com</li>
+              <li>Phone: (952) 484-2394</li>
               <li>Serving the Greater Metro Area</li>
             </ul>
           </div>

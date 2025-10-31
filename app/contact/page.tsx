@@ -153,7 +153,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">info@kennedyyardservices.com</p>
+                    <p className="text-gray-600">djandthecrew@gmail.com</p>
                   </div>
                 </div>
 
@@ -163,7 +163,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">(952) 484-2394</p>
                   </div>
                 </div>
 
@@ -215,10 +215,10 @@ export default function Contact() {
             Need immediate assistance? Give us a call for urgent outdoor maintenance needs.
           </p>
           <a
-            href="tel:5551234567"
+            href="tel:9524842394"
             className="inline-block bg-jd-yellow text-gray-900 px-8 py-3 rounded-md font-bold text-lg hover:bg-yellow-500 transition-all shadow-lg"
           >
-            Call Now: (555) 123-4567
+            Call Now: (952) 484-2394
           </a>
         </div>
       </section>

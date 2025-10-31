@@ -12,12 +12,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-jd-green rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-2xl">K</span>
-            </div>
-            <span className="text-xl font-bold text-gray-900">
-              Kennedy Yard Services
-            </span>
+            <img 
+              src="/kys_logo.png" 
+              alt="Kennedy Yard Services Logo" 
+              className="h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
