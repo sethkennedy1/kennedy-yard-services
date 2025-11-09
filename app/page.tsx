@@ -17,15 +17,15 @@ export default function Home() {
   const testimonials = [
     {
       text: "Kennedy Yard Services transformed our lawn! Professional, reliable, and affordable.",
-      author: "Syd K.",
+      author: "Jim H.",
     },
     {
       text: "They've maintained our property for years. Always punctual and thorough.",
-      author: "Sean K.",
+      author: "Roberta B.",
     },
     {
       text: "Best landscaping company in the area. Highly recommend their services!",
-      author: "Rebecca K.",
+      author: "Samuel L.",
     },
   ]
 
@@ -47,7 +47,7 @@ export default function Home() {
               Kennedy Yard Services
             </h1>
             <p className="text-2xl md:text-3xl mb-8 font-light tracking-wide">
-              Durable. Dependable. Kennedy Yard Services.
+              We appreciate the opportunity to work for you.
             </p>
             <Link
               href="/contact"

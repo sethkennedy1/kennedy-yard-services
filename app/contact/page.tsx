@@ -222,23 +222,6 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Additional CTA Section */}
-      <section className="bg-jd-green text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Emergency Services Available
-          </h2>
-          <p className="text-xl text-green-100 mb-6">
-            Need immediate assistance? Give us a call for urgent outdoor maintenance needs.
-          </p>
-          <a
-            href="tel:9524842394"
-            className="inline-block bg-jd-yellow text-gray-900 px-8 py-3 rounded-md font-bold text-lg hover:bg-yellow-500 transition-all shadow-lg"
-          >
-            Call Now: (952) 484-2394
-          </a>
-        </div>
-      </section>
     </div>
   )
 }
