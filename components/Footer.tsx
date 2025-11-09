@@ -11,7 +11,7 @@ export default function Footer() {
               Kennedy Yard Services
             </h3>
             <p className="text-gray-400 mb-4">
-              Durable. Dependable. Your trusted partner for all outdoor maintenance needs.
+              We appreciate the opportunity to work for you.
             </p>
             <a 
               href="https://www.facebook.com/KennedyYardServices" 
