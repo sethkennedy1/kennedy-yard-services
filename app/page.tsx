@@ -66,14 +66,15 @@ export default function Home() {
             Family Owned & Operated
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-6">
-            We are a family owned business that offers professional quality yard services with affordable pricing. 
-            We appreciate the opportunity to work for you!
+            Kennedy Yard Services, LLC provides exceptional lawn care services in Chanhassen, Minnesota. 
+            This family-owned business specializes in delivering professional quality yard services at affordable prices. 
+            With a commitment to customer satisfaction, Kennedy Yard Services has become a trusted name in the local community.
           </p>
           <p className="text-xl text-gray-700 leading-relaxed">
-            Kennedy Yard Services brings years of dedication and expertise to every property we care for. 
-            Built on a foundation of reliability and community trust, we're committed to delivering 
-            exceptional outdoor maintenance services that keep your landscape healthy, beautiful, and thriving 
-            year-round.
+            The company offers a range of services including lawn mowing, trimming, and yard clean-up. 
+            Each service is designed to enhance the appearance and health of residential lawns. 
+            The team at Kennedy Yard Services understands the unique needs of Minnesota lawns, ensuring that each 
+            treatment is tailored to the specific requirements of the local climate and soil conditions.
           </p>
         </div>
       </section>
