@@ -16,16 +16,12 @@ export default function Home() {
 
   const testimonials = [
     {
-      text: "Kennedy Yard Services transformed our lawn! Professional, reliable, and affordable.",
-      author: "Jim H.",
+      text: "Have been using them for over two years and they do exceptional work.",
+      author: "T.C.",
     },
     {
-      text: "They've maintained our property for years. Always punctual and thorough.",
-      author: "Roberta B.",
-    },
-    {
-      text: "Best landscaping company in the area. Highly recommend their services!",
-      author: "Samuel L.",
+      text: "Great service overall — they did a very thorough job. My lawn looks excellent, and I'm very happy I signed up with Kennedy Yard Services. I'd rate them 5 out of 5 stars.",
+      author: "S.B.",
     },
   ]
 
@@ -148,7 +144,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
