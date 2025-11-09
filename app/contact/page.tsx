@@ -207,17 +207,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            {/* Map Placeholder */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="w-full h-80 bg-gray-200 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <div className="text-6xl mb-4">🗺️</div>
-                  <p className="text-lg font-semibold">Google Maps Placeholder</p>
-                  <p className="text-sm">Add your embedded map iframe here</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
